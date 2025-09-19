@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "ultimate-killaura",
+  "version": "1.0.0",
+  "name": "Ultimate KillAura",
+  "description": "The most powerful KillAura for 1.21.1",
+  "authors": ["lkoldart"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["net.ultimatekillaura.UltimateKillAura"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
